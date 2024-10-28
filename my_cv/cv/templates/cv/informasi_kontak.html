@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informasi Kontak - Tyka Yulistriany</title>
+    <link rel="stylesheet" href="{% static 'cv/css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="{% url 'ALL' %}" style="margin-right: 0.2cm;">CV</a>
+            <a href="{% url 'profil_umum' %}" style="margin-right: 0.2cm;">Profil Umum</a>
+            <a href="{% url 'informasi_kontak' %}" style="margin-right: 0.2cm;">Informasi Kontak</a>
+            <a href="{% url 'kemampuan' %}" style="margin-right: 0.2cm;">Kemampuan</a>
+            <a href="{% url 'pendidikan' %}" style="margin-right: 0.2cm;">Pendidikan</a>
+            <a href="{% url 'pengalaman' %}" style="margin-right: 0.2cm;">Pengalaman</a>
+        </div>
+        <h2>Informasi Kontak</h2>
+        <ul>
+            <li>Email: <a href="mailto:{{ email }}">tykayulistriany@gmail.com</a></li>
+            <li>Telepon: <a href="tel:{{ telepon }}">+62 895 - 2156 - 7338</a></li>
+            <li>Instagram: <a href="{{ instagram_url }}">@ntykkaa</a></li>
+            <li>Alamat: Bandung, Jawa Barat</li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

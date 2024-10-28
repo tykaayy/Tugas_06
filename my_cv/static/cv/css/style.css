@@ -1,0 +1,115 @@
+body {
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4f9;
+    color: #555;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    background-color: #aec6cf;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 32px;
+    color: #444;
+}
+
+.header-content h2 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+}
+
+.header-content p {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #779ecb;
+    font-size: 20px;
+    border-left: 5px solid #779ecb;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-info,
+.kemampuan,
+.pendidikan,
+.pengalaman {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li,
+.kemampuan li,
+.pendidikan li,
+.pengalaman li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.kemampuan li {
+    background-color: #f8f4f9;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+}
+
+a {
+    color: #779ecb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #aec6cf;
+    /* Soft pastel blue */
+    color: white;
+    border-radius: 0 0 8px 8px;
+    margin-top: 30px;
+}

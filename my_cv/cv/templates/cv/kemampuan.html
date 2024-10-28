@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemampuan - Tyka Yulistriany</title>
+    <link rel="stylesheet" href="{% static 'cv/css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="{% url 'ALL' %}" style="margin-right: 0.2cm;">CV</a>
+            <a href="{% url 'profil_umum' %}" style="margin-right: 0.2cm;">Profil Umum</a>
+            <a href="{% url 'informasi_kontak' %}" style="margin-right: 0.2cm;">Informasi Kontak</a>
+            <a href="{% url 'kemampuan' %}" style="margin-right: 0.2cm;">Kemampuan</a>
+            <a href="{% url 'pendidikan' %}" style="margin-right: 0.2cm;">Pendidikan</a>
+            <a href="{% url 'pengalaman' %}" style="margin-right: 0.2cm;">Pengalaman</a>
+        </div>
+        <h3>Kemampuan</h3>
+        <ul class="kemampuan">
+            <li>Bahasa Indonesia</li>
+            <li>Canva</li>
+            <li>Melukis</li>
+            <li>Microsoft Office</li>
+            <li>Bahasa C</li>
+        </ul>
+    </div>
+</body>
+
+</html>
